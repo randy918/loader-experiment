@@ -1,5 +1,5 @@
 function init() {
-  c("hekk");
+  c("init");
 }
 
 function main() {
