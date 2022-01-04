@@ -75,11 +75,12 @@ h1 {
   width: 100px;
   height: 100px;
   position: relative;
+  z-index: 99;
 }
 
 .spinner div {
   position: absolute;
-
+  background-color: gray;
   border: 10px solid transparent;
   border-radius: 50%;
   border-top-color: #ad60f5;
