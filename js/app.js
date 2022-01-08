@@ -1,3 +1,5 @@
+"use strict";
+
 function init() {
   c("init");
 }
@@ -11,23 +13,15 @@ window.onload = function () {
 };
 c("hello");
 
-//c(job);
-//c(year);
+let lastName = "Miller";
+let previousName = lastName;
+lastName = "Davis";
 
-var me = "johns";
-let job = "junior exec";
-const year = 1941;
-
-c(addNumbers(8, 7));
-c(addDecl(8, 7));
-c(addStuff(7, 6));
-
-const addDecl = (a, b) => a + b;
-
-function addNumbers(a, b) {
-  return a + b;
-}
-
-const addStuff = function (a, b) {
-  return a + b;
+const jessica = {
+  firstName: "Jessica",
+  lastName: "Williams",
+  age: 26,
 };
+
+const marriedJessica = jessica;
+marriedJessica.lastName = "Davis";
